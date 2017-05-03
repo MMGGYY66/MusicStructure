@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_now_playing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicstructure.ArtistActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_NavBar"
+        android:orientation="horizontal"
+        style="@style/navBar">
+
+        <ImageView
+            android:id="@+id/nowPlaying_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/nowplaying_inactive"
+            style="@style/navBarItem"/>
+
+        <ImageView
+            android:id="@+id/songs_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/playlist_inactive"
+            style="@style/navBarItem"/>
+
+        <ImageView
+            android:id="@+id/album_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/music_library_inactive"
+            style="@style/navBarItem"/>
+
+        <ImageView
+            android:id="@+id/artist_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/artist"
+            style="@style/navBarItem"/>
+
+        <ImageView
+            android:id="@+id/lyrics_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/lyrics_inactive"
+            style="@style/navBarItem"/>
+
+        <ImageView
+            android:id="@+id/genre_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/equalizer_inactive"
+            style="@style/navBarItem"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/artistName"
+                style="@style/explanation_title"/>
+
+            <ImageView
+                android:layout_width="@dimen/textSize_ExplanationImage"
+                android:layout_height="@dimen/textSize_ExplanationImage"
+                android:src="@drawable/artist_test"
+                style="@style/explanation_image"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/artistActivity_TextView"
+                style="@style/explanation_textView"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

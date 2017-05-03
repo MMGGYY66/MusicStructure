@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Music Structure</string>
+
+    <!-- Activity Labels -->
+    <string name="nowPlaying">Now Playing</string>
+    <string name="playlistActivity">Current Playlist</string>
+    <string name="musicLibraryActivity">Music Library</string>
+    <string name="artistActivity">Artist Information</string>
+    <string name="equalizerActivity">Equalizer</string>
+    <string name="lyricsActivity">Song Lyrics</string>
+
+    <!-- Activity Explanation text views -->
+    <string name="nowPlayingActivity_TextView">This activity will show and play the current
+    song. There are buttons for moving to the next and previous songs in the playlist, one
+        for a shuffled play and one that repeats the song. A seek bar shows the time position
+        .\n\n The song name as well as the album art will be collected from the file\'s ID3 tag
+        using MediaMetaDataRetriever class. </string>
+
+    <string name="playlistActivity_TextView"> This activity will show the files in the
+        current playlist. The files will be added through the music library either one by
+        one, by artist, by genre or by album.\n\nThe list will be scrollable and populated using
+        an arraylist.\n\nThe currently playing song will be
+        highlighted. The songs should be movable by dragging each one so that the
+        playlist order could be changed. By long-pressing, the user will be able to remove an
+        entry. The user will be able to save a playlist as well as open al already existing.\n\nAn
+        OnClickListener will be attached to each
+        TextView so that when each is pressed, the player will jump to that item in the
+        playlist.</string>
+
+    <string name="musicLibraryActivity_TextView"> This activity will initially display all
+        songs in the phone/SD card. Using the 3 filters (Genre/Artist/Album), the list will
+    update to show only the songs relevant to the selected filters. By using the buttons
+        next to each song, the user chooses to either play a song or add it to the current
+        playlist.\n\nThe difficulty lies in refreshing the list.\n\nThere is also a search
+        view in order to find a specific song/songs.</string>
+
+    <string name="artistActivity_TextView">This activity will search the name of the artist
+        (collected from the file\'s ID3 tag using MediaMetaDataRetriever class) on the internet
+        (e.g. on Wikipedia) and display a picture as well as a brief history of his.</string>
+
+    <string name="equalizerActivity_TextView">This activity will sport an equalizer in
+        order for the user to be able to alter the sound frequencies of the songs.\n\nA number of
+        presets will be available, selectable with the appropriate arrow
+        buttons. The user will not be able to change these, but there will be 2 presets
+        (user defined 1 and user defined 2) which the user will be able to change.\n\nThis
+        could be done by using the Equalizer class.</string>
+
+    <string name="lyricsActivity_TextView">This activity will show the lyrics of the currently
+        playing song. These will be accessed either through the ID3 tag on the file itself (if
+        available) or through a web site (e.g. songlyrics).\n\nTo do this an API is
+        needed (e.g. Musicmatch API).\n\nThe Lyrics will be scrollable.</string>
+
+    <!-- Examples -->
+    <string name="artistName">Pink Floyd</string>
+
+    <string name="song1">Speak to Me/Breathe</string>
+    <string name="song2">On the Run</string>
+    <string name="song3">Time</string>
+    <string name="song4">The Great Gig in the Sky</string>
+    <string name="song5">Money</string>
+    <string name="song6">Us and Them</string>
+    <string name="song7">Any Colour You Like</string>
+    <string name="song8">Brain Damage</string>
+    <string name="song9">Eclipse</string>
+
+    <string name="song1Duration">3:58</string>
+    <string name="song2Duration">3:35</string>
+    <string name="song3Duration">7:05</string>
+    <string name="song4Duration">4:44</string>
+    <string name="song5Duration">6:23</string>
+    <string name="song6Duration">7:50</string>
+    <string name="song7Duration">3:26</string>
+    <string name="song8Duration">3:47</string>
+    <string name="song9Duration">2:01</string>
+    <string name="zeroDuration">0:00</string>
+
+    <string name="preset">Rock</string>
+    <string name="openPlaylist">Open playlist...</string>
+    <string name="savePlaylist">Save playlist...</string>
+
+    <!-- Titles -->
+    <string name="equalizerPresets">Presets</string>
+    <string name="genreFilter">Genre</string>
+    <string name="artistFilter">Artist</string>
+    <string name="albumFilter">Album</string>
+</resources>

@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Navigation Bar styles -->
+    <style name="navBar">
+        <item name="android:background">@color/colorNavBar</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="navBarItem">
+        <item name="android:layout_margin">@dimen/margin_NavBarItems</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    
+    <!-- Explanation TextViews & Images styles -->
+    <style name="explanation_textView">
+        <item name="android:padding">@dimen/margin_ExplanationText</item>
+    </style>
+
+    <style name="explanation_title">
+        <item name="android:layout_marginTop">@dimen/margin_ExplanationText</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/textSize_ExplanationTitle</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="explanation_image">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/margin_ExplanationText</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    
+    <!-- Songs in playlist $ library styles -->
+    <style name="songNumber">
+        <item name="android:layout_marginTop">@dimen/margin_Songs</item>
+    </style>
+    <style name="songTitle">
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_marginTop">@dimen/margin_Songs</item>
+    </style>
+    
+    <style name="songDuration">
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">@dimen/margin_Songs</item>
+    </style>
+
+    <!-- Playlist open/save styles -->
+    <style name="playlistOperations">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">@dimen/margin_PlaylistOperations</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Filters -->
+    <style name="filters">
+        <item name="android:textSize">@dimen/textSize_Filters</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Music Library buttons -->
+    <style name="musicLibraryButtons">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_marginLeft">@dimen/margin_MusicLibraryButtons</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Now Playing buttons -->
+    <style name="nowPlayingButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_marginRight">@dimen/margin_NowPlayingButton</item>
+        <item name="android:layout_marginLeft">@dimen/margin_NowPlayingButton</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="songDurationPlaying">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">@dimen/margin_ButtonGroup</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Equalizer Text -->
+    <style name="equalizerPresets">
+        <item name="android:textSize">@dimen/textSize_Presets</item>
+        <item name="android:layout_marginLeft">@dimen/margin_Presets</item>
+        <item name="android:layout_marginRight">@dimen/margin_Presets</item>
+    </style>
+</resources>

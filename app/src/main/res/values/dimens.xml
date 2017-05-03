@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Navigation Bar Items -->
+    <dimen name="height_NavBar">48dp</dimen>
+
+    <!-- Navigation Bar Items -->
+    <dimen name="margin_NavBarItems">8dp</dimen>
+    <dimen name="height_NavBarItems">48dp</dimen>
+
+    <!-- Activity Explanation text views & images -->
+    <dimen name="textSize_ExplanationTitle">32sp</dimen>
+    <dimen name="margin_ExplanationText">16dp</dimen>
+    <dimen name="textSize_ExplanationImage">200dp</dimen>
+
+    <!-- Songs -->
+    <dimen name="margin_Songs">4dp</dimen>
+    <dimen name="margin_PlaylistOperations">16dp</dimen>
+
+    <!-- Filters -->
+    <dimen name="textSize_Filters">16sp</dimen>
+
+    <!-- Horizontal Divider -->
+    <dimen name="height_horizontalDivider">1dp</dimen>
+
+    <!-- Music Library button -->
+    <dimen name="margin_MusicLibraryButtons">16dp</dimen>
+    <dimen name="height_MusicLibraryButtons">15dp</dimen>
+    <dimen name="width_MusicLibraryButtons">15dp</dimen>
+
+    <!-- Now Playing buttons -->
+    <dimen name="margin_ButtonGroup">16dp</dimen>
+    <dimen name="margin_NowPlayingButton">8dp</dimen>
+    <dimen name="size_NowPlayingButton">30dp</dimen>
+
+    <!-- Equalizer Activity -->
+    <dimen name="textSize_Presets">24sp</dimen>
+    <dimen name="margin_Presets">16dp</dimen>
+</resources>
