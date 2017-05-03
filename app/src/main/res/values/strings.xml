@@ -4,7 +4,7 @@
     <!-- Activity Labels -->
     <string name="nowPlaying">Now Playing</string>
     <string name="playlistActivity">Current Playlist</string>
-    <string name="musicLibraryActivity">Music Library</string>
+    <string name="musicLibraryActivity">Light Music PLayer</string>
     <string name="artistActivity">Artist Information</string>
     <string name="equalizerActivity">Equalizer</string>
     <string name="lyricsActivity">Song Lyrics</string>
